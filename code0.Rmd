@@ -40,7 +40,9 @@ This is a memo for how to use Github with R/Rstudio.
 
 7. On Rstudio side, you click *PULL*.
 
-### Acknowledge: [https://github.com/blog/2336-invest-in-tools-students-can-grow-with-github-and-rstudio-for-data-science-at-duke-university]
+### Acknowledge:
+
+[https://github.com/blog/2336-invest-in-tools-students-can-grow-with-github-and-rstudio-for-data-science-at-duke-university]
 
 
 
