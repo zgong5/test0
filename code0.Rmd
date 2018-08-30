@@ -1,22 +1,43 @@
 ---
-title: "test0"
-output: html_document
+title: "Intro to Github"
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown 
+###  Github and Rstudio 
 
-Headers in rmd with hashtags
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This is a memo for how to use Github with R/Rstudio.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+1. Download Git and create an account at Github.
 
-```{r cars}
-summary(cars)
-```
+2. Create a new repository on Github.
 
-Emphasis with asterisks and underscores.
+3. From clone or download click, to get SSH or URL of the new repository, copy the link.
+
+4. Go to Rstudio and create a R project (with extension Rproj), click vision control, paste the repo link and choose the working directory.
+
+5. Connection between Rproject and Github is done. 
+
+### Push and Pull
+
+1. Create a rmd file and save it at this Rproj.
+
+2. After editting the rmd file, click commit. 
+
+3. In commit window, choose the files you want to update to Github, and write the commit message as a description, click commit and *PUSH*.
+
+4. At the first time of push, you might be asked to put Github username and password once.
+
+5. Now your file is updated on Github, refresh the Github page, you can see the new file.
+
+6. You also edit the rmd file on Github and click commit change to submit.
+
+7. On Rstudio side, you click *PULL*.
+
+
